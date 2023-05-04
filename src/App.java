@@ -12,6 +12,7 @@ public class App extends JFrame {
     public App() throws IOException, FontFormatException {
         Color realOrange = new Color(246,153,6);
         setTitle("Calculator");
+        setIconImage(new ImageIcon("icon.png").getImage());
         setSize(350, 600);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
