@@ -7,7 +7,6 @@ import java.io.File;
 import java.io.IOException;
 
 public class App extends JFrame {
-
     float res = 0;
     public App() throws IOException, FontFormatException {
         // Create APP
